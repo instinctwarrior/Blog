@@ -1,0 +1,36 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "This is the first blogging site that i develop while practicing NoddeJs and ExpressJs.",
+  "main": "index.js",
+  "scripts": {
+    "Blog": "nodemon index.js"
+  },
+  "author": "Rishabh Singh",
+  "license": "ISC",
+  "dependencies": {
+    "-": "0.0.1",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-validator": "^6.4.0",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "pug": "^2.0.4",
+    "ejs": "^2.7.4",
+    "express-flash": "0.0.2",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
